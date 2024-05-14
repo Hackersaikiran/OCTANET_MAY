@@ -1,0 +1,297 @@
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>octanet | Task-1</title>
+   
+  </head>
+  <body>
+    <nav >
+      
+      <div class="nav__logo"><span>SK</span>Travels</div>
+   
+      <ul class="sidebar">
+        
+        <li onclick=hideSidebar()><a href=""><i class="ri-more-2-fill"></i></a>
+        <li ><a href="">Menu</a></li>
+        <li  ><a href="#price">Plans</a></li>
+        <li  ><a href="#about">Reviews</a></li>
+        <li ><a href="#contact">Contact Us</a></li>       
+        <li > <a href="">Register</a></li>
+        
+      
+      </ul>
+ 
+      <ul class="nav__links">
+        
+        <img src="assets/moon.png" id="icon">
+        <li class="link "><a href="">Menu</a></li>
+        <li class="link " ><a href="#price">Plans</a></li>
+        <li class="link " ><a href="#about">Reviews</a></li>
+        <li class="link "><a href="#contact">Contact Us</a></li>       
+        <li class="link  "> <a href="">Register</a></li>
+        
+    
+          
+      <li class="menu" onclick=showSidebar()><a href="#"><i class="ri-more-2-fill"></i></a>
+      </ul>
+      
+      
+    </nav>
+   <section class="hbd">
+    <header class="section__container header__container">
+      <div class="header__content">
+        <p class="section__subheader">Choose your plan</p>
+        <h2 class="section__header">Make your best tour plan with us</h2>
+        <p class="title"> Search your best plans</p>
+        <form>
+          <div class="form__group">
+            <input type="text" />
+            <span><i class="ri-search-line"></i></span>
+          </div>
+          <p class="hashtags">
+            #TravelPhotography #InstaTravel #TravelCouples #TravelGoals
+            #SoloTravel #TravelInspiration #PassportReady
+          </p>
+          
+        </form>
+        <button class="btn">Find</button>
+      </div>
+      <div class="header__image">
+        <img src="assets/header.jpg" alt="header" />
+        <div class="header__nav">
+          <span><i class="ri-arrow-left-line"></i> Previous</span>
+          <span>Next <i class="ri-arrow-right-line"></i></span>
+        </div>
+      </div>
+    </header>
+  </section>
+
+    <section class="story">
+      <div class="section__container story__container">
+        <div class="story__image">
+          <img src="assets/story.jpg" alt="story" />
+        </div>
+        <div class="story__content">
+          <p class="section__subheader">A story about a journey</p>
+          <h2 class="section__header">Thailand trip in december</h2>
+          <p class="title">
+            <span><i class="ri-calendar-2-fill"></i> Jan-06-2023</span>
+            <span><i class="ri-user-3-fill"></i> Tharu Bhaskar</span>
+          </p>
+          <p class="description">
+            Experience the magic of Thailand with SKTravel in December! Our
+            expertly curated trip will take you on an unforgettable journey
+            through this vibrant and captivating country. Discover the stunning
+            beaches of Thailand's southern islands, such as Phuket, Krabi, or
+            Koh Samui, where you can bask in the warm tropical sun and indulge
+            in water sports.<br /><br />SKTravel, your trusted travel partner,
+            ensures a seamless and well-planned itinerary, including
+            accommodations, transportation, and expert guides. Book your
+            Thailand adventure with SKTravel today and create lasting memories in
+            the Land of Smiles.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+    <section class="hn">
+    <section class="section__container price__container" id="price">
+      <p class="section__subheader">Pricing</p>
+      <h2 class="section__header">Check your tour plans</h2>
+      <div class="price__grid">
+        <div class="price__card">
+          <img src="assets/price-1.jpg" alt="price" />
+          <div class="details">
+            <span>Team tour</span>
+            <span>$455/Person</span>
+          </div>
+          <h4>Confirm your group tour recent packages</h4>
+          <div class="price__card__footer">
+            <span class="location">
+              <i class="ri-map-pin-2-fill"></i> Morocco
+            </span>
+            <span class="rating"><i class="ri-star-fill"></i> 5.0</span>
+          </div>
+        </div>
+        <div class="price__card">
+          <img src="assets/price-2.jpg" alt="price" />
+          <div class="details">
+            <span>Team tour</span>
+            <span>$405/Person</span>
+          </div>
+          <h4>Get secured tour plan with your spouse</h4>
+          <div class="price__card__footer">
+            <span class="location">
+              <i class="ri-map-pin-2-fill"></i> Singapore
+            </span>
+            <span class="rating"><i class="ri-star-fill"></i> 4.8</span>
+          </div>
+        </div>
+        <div class="price__card">
+          <img src="assets/price-3.jpg" alt="price" />
+          <div class="details">
+            <span>Team tour</span>
+            <span>$355/Person</span>
+          </div>
+          <h4>Make your adventures comfortable</h4>
+          <div class="price__card__footer">
+            <span class="location">
+              <i class="ri-map-pin-2-fill"></i> Switzerland
+            </span>
+            <span class="rating"><i class="ri-star-fill"></i> 4.6</span>
+          </div>
+        </div>
+        <div class="price__card">
+          <img src="assets/price-4.jpg" alt="price" />
+          <div class="details">
+            <span>Team tour</span>
+            <span>$400/Person</span>
+          </div>
+          <h4>Explore the paris streets at peace</h4>
+          <div class="price__card__footer">
+            <span class="location">
+              <i class="ri-map-pin-2-fill"></i> Paris
+            </span>
+            <span class="rating"><i class="ri-star-fill"></i> 4.9</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+    <section class="client" id="about">
+      <div class="section__container client__container">
+       
+        <h2 class="section__header">What our clients say about us</h2>
+        <div class="client__grid">
+          <div class="client__card">
+            <img src="assets/client-1.jpg" alt="client" />
+            <h4>Exceptional Service and Support</h4>
+            <p>
+              SKTravel provided exceptional service and support throughout our
+              trip. Their attention to detail and prompt assistance made our
+              journey smooth and worry-free.
+            </p>
+            <span><i class="ri-double-quotes-l"></i></span>
+          </div>
+          <div class="client__card">
+            <img src="assets/client-2.jpg" alt="client" />
+            <h4>Cultural Immersion at its Best</h4>
+            <p>
+              Thanks to SKTravel, we experienced cultural immersion at its best.
+              From temple visits to local interactions, we felt truly connected
+              to the heart and soul of Thailand.
+            </p>
+            <span><i class="ri-double-quotes-l"></i></span>
+          </div>
+          <div class="client__card">
+            <img src="assets/client-3.jpg" alt="client" />
+            <h4>Memories that Last a Lifetime</h4>
+            <p>
+              SKTravel helped us create memories that will last a lifetime. The
+              well-planned itinerary and unique experiences made our trip to
+              Thailand truly unforgettable.
+            </p>
+            <span><i class="ri-double-quotes-l"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+   <section class="hn">
+    <section class="section__container contact__container">
+     
+      <h2 class="section__header">Explore Places with Us</h2>
+      <form >
+        
+        <input type="text" placeholder="Full Name" />
+        <input type="text" placeholder="Phone Number/email" />
+        <input type="text" placeholder="Country" />
+       
+        <button class="btn">Register</button>
+     
+      </form>
+    </section>
+  </section>
+
+    <section class="banner">
+      <div class="section__container banner__container">
+        <h4>
+          Subscribe to our newsletter and receive exclusive offers every week
+        </h4>
+        <form>
+          <input type="text" placeholder="Enter your email" />
+          <button>Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container" id="contact">
+        <div class="footer__col">
+          <h4>About Us</h4>
+          <p>
+            SKTravel is your trusted travel agent specializing in booking
+            packages around the world. We provide exceptional service to cater
+            to your travel needs and preferences.<br /><br />Book your next
+            adventure with us and embark on a transformative journey that will
+            create cherished memories for a lifetime.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Travel Info</h4>
+          <p>Menu</p>
+          <p>Travel Guides</p>
+          <p>Plans</p>
+          <p>About Us</p>
+          <p>Contact Us</p>
+        </div>
+        <div class="footer__col">
+          <h4>Information</h4>
+          <p>Gift Cards</p>
+          <p>Find a Package</p>
+          <p>Discounts</p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        <p>email : SKTravel@gmail.com</p>
+        <div class="socials">
+          <span><i class="ri-facebook-fill"></i></span>
+          <span><i class="ri-twitter-fill"></i></span>
+          <span><i class="ri-linkedin-box-fill"></i></span>
+          <span><i class="ri-pinterest-line"></i></span>
+          <span><i class="ri-youtube-fill"></i></span>
+        </div>
+      </div>
+    </footer>
+    <script>
+      var icon = document.getElementById("icon");
+      icon.onclick =function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+          icon.src="assets/sun.png";
+        }else{
+          icon.src="assets/moon.png";
+        }
+      }
+    </script>
+    <script src="main.js"></script>
+    <script>
+      function showSidebar()
+      {
+        const sidebar=document.querySelector('.sidebar')
+        sidebar.style.display='flex'
+      }
+      function hideSidebar()
+      {
+        const sidebar=document.querySelector('.sidebar')
+        sidebar.style.display='none'
+      }
+    </script>
+  </body>
+</html>
